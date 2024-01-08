@@ -2,9 +2,11 @@
 
 **Git Setup**
 
-<p>git config --global user.name “[firstname lastname]” : mengatur nama agar terlihat pada kredit saat review history</p>
-git config --global user.email “[valid-email]” : mengatur email
-git config --global color.ui auto : mengatur warna command line agar mudah untuk dilihat
+<ul>
+<li>git config --global user.name “[firstname lastname]” : mengatur nama agar terlihat pada kredit saat review history</li>
+<li>git config --global user.email “[valid-email]” : mengatur email</li>
+<li>git config --global color.ui auto : mengatur warna command line agar mudah untuk dilihat</li>
+</ul>
 
 **Git Setup & init**
 git init : menginisialisasi project git
