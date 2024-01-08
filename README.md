@@ -1,21 +1,21 @@
 ﻿## Git Command Note
 
-**Git Setup**
+**GIT SETUP**
 
 <ul>
-<li>`git config --global user.name “[firstname lastname]”` : mengatur nama agar terlihat pada kredit saat review history</li>
+<li>git config --global user.name “[firstname lastname]” : mengatur nama agar terlihat pada kredit saat review history</li>
 <li>git config --global user.email “[valid-email]” : mengatur email</li>
 <li>git config --global color.ui auto : mengatur warna command line agar mudah untuk dilihat</li>
 </ul>
 
-**Git Setup & init**
+**GIT SETUP & INIT**
 
 <ul>
 <li>git init : menginisialisasi project git</li>
 <li>git clone [url] : cloning suatu repository</li>
 </ul>
 
-**Git Stage & Snapshot**
+**GIT STAGE & SNAPSHOOT**
 
 <ul>
 <li>git status : memperlihatkan perubahan pada file kerja untuk commit selanjutnya</li> 
@@ -74,7 +74,7 @@
 <li>git stash : menyimpan perubahan dan dilakukan staging dari perubahan tersebut</li>
 <li>git stash list : list urutan perubahan file yang dilakukan</li>
 <li>git stash pop : menghapus atau membuang stash terbaru atau yang paling atas</li> 
-<li>git stash drop` : menghapus stash terbaru</li>
+<li>git stash drop : menghapus stash terbaru</li>
 </ul>
 
 Commit flow chart :
