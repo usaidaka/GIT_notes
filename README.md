@@ -85,9 +85,9 @@
       A[sprint x]-->B((feat/1));
       A-->C((feat/2));
       A --> D((feat/3))
-      B-- push-->E{develop};
-      C-- push -->E;
-      D-- push --> E
+      B-->E{develop};
+      C -->E;
+      D --> E
       E --> F{release/sprint-x}
       F --> G[is any next sprint?]
       G --YES --> A
