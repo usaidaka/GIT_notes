@@ -20,8 +20,6 @@ const dataHandling = (params) => {
 
 console.log(dataHandling(input));
 
-console.log(dataHandling(input));
-
 // Expected Result
 // Nomor ID:  0001
 // Nama Lengkap:  Roman Alamsyah
