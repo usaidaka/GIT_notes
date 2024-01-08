@@ -77,6 +77,25 @@
 <li>git stash drop : menghapus stash terbaru</li>
 </ul>
 
+**TAGGING COMMENT**
+
+<ul>
+<li>git tag : list semua tag</li>
+<li>git tag [name] [commit sha] : membuat refrensi nama utk commit saat ini. menambahkan commit sha utk menandai komit tertentu, bukan commit saat ini</li>
+<li>git tag -a [name] [commit sha] : Buat objek tag bernama name untuk commit saat ini.</li> 
+<li>git tag -d [name] : menghapus tag dr repository local</li>
+</ul>
+
+**SYNCRONIZING REPOSITORY**
+
+<ul>
+<li>git fetch [remote] : mengambil perubahan pada branc / remote terbaru tetepi tidak merubah branch</li>
+<li>git fetch --prune [remote] : menghapus refrensi remote yang telah dihapus dari repository</li>
+<li>git pull [remote] : mengambil perubahan</li> 
+<li>git push [--tags] [remote] : mengirim perubahan ke remote</li>
+<li>git push -u [remote] [branch] : mengirim perubahan branch lokal ke remote repository</li>
+</ul>
+
 **COMMIT FLOW CHART**
 
 ```mermaid
