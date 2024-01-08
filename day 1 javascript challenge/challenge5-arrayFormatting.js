@@ -6,18 +6,19 @@ const input = [
 ];
 
 const dataHandling = (params) => {
-  let formated = [];
+  let formated = "";
 
   for (let i = 0; i < input.length; i++) {
-    formated.push({
-      "Nomor ID": params[i][0],
-      "Nama Lengkap": params[i][1],
-      TTL: `${params[i][2]} ${params[i][3]}`,
-      Hobi: params[i][4],
-    });
+    formated += `
+    Nomor ID: ${params[i][0]}\n
+    Nama Lengkap: ${params[i][1]}\n
+    TTL: ${params[i][2]} ${params[i][3]}\n
+    Hobi: ${params[i][4]}\n\n`;
   }
   return formated;
 };
+
+console.log(dataHandling(input));
 
 console.log(dataHandling(input));
 
