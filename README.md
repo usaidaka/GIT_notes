@@ -77,7 +77,7 @@
 <li>git stash drop : menghapus stash terbaru</li>
 </ul>
 
-Commit flow chart :
+**Commit flow chart**
 
 ```mermaid
   graph TD;
