@@ -10,10 +10,10 @@ const dataHandling = (params) => {
 
   for (let i = 0; i < input.length; i++) {
     formated += `
-    Nomor ID: ${params[i][0]}\n
-    Nama Lengkap: ${params[i][1]}\n
-    TTL: ${params[i][2]} ${params[i][3]}\n
-    Hobi: ${params[i][4]}\n\n`;
+    Nomor ID: ${params[i][0]}
+    Nama Lengkap: ${params[i][1]}
+    TTL: ${params[i][2]} ${params[i][3]}
+    Hobi: ${params[i][4]}\n`;
   }
   return formated;
 };
