@@ -13,7 +13,11 @@ function hitungJumlahKata(kalimat) {
     result = 1;
   }
   for (let i = 0; i < kalimat.length; i++) {
-    if (kalimat[i] == " ") {
+    if (
+      kalimat[i] == " " &&
+      kalimat[i + 1] !== " " &&
+      i !== kalimat.length - 1
+    ) {
       result++;
     }
   }
@@ -21,7 +25,7 @@ function hitungJumlahKata(kalimat) {
 }
 
 // TEST CASES
-console.log(hitungJumlahKata("I have a dream")); // 4
+console.log(hitungJumlahKata("I have a dream    ")); // 4
 console.log(hitungJumlahKata("Never eat shredded wheat or cake")); // 6
 console.log(hitungJumlahKata("A song to sing")); // 4
 console.log(hitungJumlahKata("I")); // 1

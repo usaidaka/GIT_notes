@@ -36,7 +36,10 @@ function meleeRangedGrouping(str) {
         meleeList.push(tempName);
         tempName = "";
         break;
-      } else if (arrListHero[i][j + 1] === "R") {
+      } else if (
+        arrListHero[i][j + 1] === "-" &&
+        arrListHero[i][j + 2] === "R"
+      ) {
         rangedList.push(tempName);
         tempName = "";
         break;

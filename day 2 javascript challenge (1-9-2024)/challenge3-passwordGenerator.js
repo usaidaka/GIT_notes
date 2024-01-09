@@ -13,27 +13,23 @@ Semua manipulasi string (changeVocals, reverseWord, setLowerUpperCase, removeSpa
 
 function changeVocals(str) {
   let result = "";
+  // object
+  const vocal = {
+    a: "b",
+    i: "j",
+    u: "v",
+    e: "f",
+    o: "p",
+    A: "B",
+    I: "J",
+    U: "V",
+    E: "F",
+    O: "P",
+  };
+
   for (let i = 0; i < str.length; i++) {
-    if (str[i] === "a") {
-      result += "b";
-    } else if (str[i] === "i") {
-      result += "j";
-    } else if (str[i] === "u") {
-      result += "v";
-    } else if (str[i] === "e") {
-      result += "f";
-    } else if (str[i] === "o") {
-      result += "p";
-    } else if (str[i] === "A") {
-      result += "B";
-    } else if (str[i] === "I") {
-      result += "J";
-    } else if (str[i] === "U") {
-      result += "V";
-    } else if (str[i] === "E") {
-      result += "F";
-    } else if (str[i] === "O") {
-      result += "P";
+    if (vocal[str[i]]) {
+      result += vocal[str[i]];
     } else {
       result += str[i];
     }

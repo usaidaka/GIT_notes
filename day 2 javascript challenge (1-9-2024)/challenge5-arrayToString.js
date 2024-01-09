@@ -23,7 +23,7 @@ function stringToArray(string) {
   return result;
 }
 
-console.log(stringToArray("aqrst,ukaei,ffooo"));
+console.log(stringToArray("aqrst,ukaei,ffooo   "));
 
 // result
 // [
