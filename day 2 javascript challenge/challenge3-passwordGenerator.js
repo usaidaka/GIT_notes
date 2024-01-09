@@ -74,6 +74,9 @@ function removeSpaces(str) {
 }
 
 function passwordGenerator(name) {
+  if (name.length < 5) {
+    return "Minimal karakter yang diinputkan adalah 5 karakter";
+  }
   return removeSpaces(setLowerUpperCase(reverseWord(changeVocals(name))));
 }
 
